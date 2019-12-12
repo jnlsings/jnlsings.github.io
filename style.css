@@ -7,7 +7,12 @@ body {
 
 header {
     color: white;
+    font-size: fill;
     
+}
+
+a {
+    color: white;
 }
 
 /* img {
