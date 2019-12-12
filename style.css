@@ -1,0 +1,16 @@
+body {
+    background-image: url("images/JaimieLoweFormalBlackSmile2.jpeg");
+    background-color: black;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+header {
+    color: white;
+    
+}
+
+/* img {
+    max-width: 100vw;
+    max-height: 100vh;
+} */
