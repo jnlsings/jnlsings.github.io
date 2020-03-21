@@ -1,0 +1,29 @@
+{
+  "name": "jnlsings.github.io",
+  "version": "1.0.0",
+  "description": "This is draft 1 of my portfolio",
+  "main": "sass/mystyles.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jnlsings/jnlsings.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jnlsings/jnlsings.github.io/issues"
+  },
+  "homepage": "https://github.com/jnlsings/jnlsings.github.io#readme",
+  "devDependencies": {
+    "bulma": "^0.8.0",
+    "node-sass": "^4.13.1"
+  },
+  "dependencies": {},
+  "scripts": {
+    "css-build": "node-sass --omit-source-map-url sass/mystyles.scss css/mystyles.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
+  }
+}

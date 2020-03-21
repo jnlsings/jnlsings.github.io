@@ -1,61 +1,86 @@
+html,
 body {
-    
-    background-color: black;
-    font-family: 'Poppins', sans-serif;
+	height: 100%;
+	margin: 0;
+	background-color: black;
+	font-family: 'Poppins', sans-serif;
+}
+/* this code for making footer stick from https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/ */
+
+.site {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+.site-content {
+	flex: 1;
 }
 
 header {
-    color: white;
-    /* text-align: center; */
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    border-bottom: 3px solid rgb(255, 255, 255);
-    margin: 0px 40px;
-   
-    
+	color: white;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	border-bottom: 3px solid #603f9e;
+	margin: 0px 40px;
 }
 
 main {
-    background-image: url("images/JaimieLoweFormalBlackSmile2.jpeg");
-    background-color: black;
-    background-size: 100%;
-    background-position: right;
-    background-repeat: no-repeat;
+	background-image: url('images/JaimieLoweFormalBlackSmile2.jpeg');
+	background-color: black;
+	background-size: 100%;
+	background-position: right;
+	background-repeat: no-repeat;
+	min-height: 50vh;
+}
+.home-nav {
+	display: flex;
+	flex-direction: row;
+	/* justify-content: center; */
+	justify-content: space-around;
 }
 
-a {
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: left;
-    padding: 0px;
-    margin: 100px 0px 0px 40px;
-    font-size: 50px;
-    text-decoration: none;
-    font-size: 4vw;
-    font-size: 4vh;
+.nav-link {
+	color: white;
+	/* display: inline; */
+	/* flex-direction: column; */
+	/* justify-content: space-between; */
+	/* align-items: left; */
+	/* padding: 0px; */
+	/* margin: 100px 0px 0px 40px; */
+	/* font-size: 50px; */
+	text-decoration: none;
+	/* font-size: 4vw; */
+	/* font-size: 4vh; */
 }
 
-footer {
-    background-color: white;
-    width: 100vw;
-    /* display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-content: center;
-    flex-wrap: wrap; */
-
-}
-
-/* .FooterAnchor {
-    color: black;
+/* Jordan's footer code
+.footer-container {
+  min-height: 100vh;
+  overflow: hidden;
+  display: flex;
+  position: relative;
+  padding-bottom: 100px;
 } */
 
-
-img.GitHub-Mark {
-    max-width: 64px;
-    max-height: 64px;
-    padding: 20px;
-}
+/* .footer {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  bottom: 0;
+  height: 2.5rem;
+  background-color: white;
+  padding-bottom: 15px;
+} */
+/* .footer-copyright {
+  margin-left: 20px;
+} */
+/* .github-mark {
+  width: 30%;
+  margin-top: 15px;
+  margin-right: 20px;
+  margin-left: 8px;
+} */
