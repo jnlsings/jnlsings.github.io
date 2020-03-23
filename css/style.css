@@ -1,0 +1,45 @@
+/* this code for making footer stick from https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/ */
+
+.site {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+.site-content {
+	flex: 1;
+}
+
+.name-logo {
+	padding: 1.25rem 1rem 0rem 1rem;
+}
+
+.navbar-burger {
+	padding: 2rem;
+}
+
+.projects {
+	margin: 50px 0px 0px 0px;
+}
+.copyright {
+	padding: 0rem 1rem 0rem 0rem;
+}
+
+.button {
+	margin: 10px 0px 0px 0px;
+}
+
+.icon {
+	padding: 0rem 1rem 0rem 0rem;
+}
+
+.contact-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.skills {
+	text-align: center;
+}

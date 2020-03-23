@@ -24,7 +24,8 @@ $fullhd-enabled: false;
 $control-border-width: 2px;
 $input-border-color: transparent;
 $input-shadow: none;
-$footer-padding: 3rem 1.5rem 1rem;
+$footer-padding: 1rem 1.5rem 1rem;
+$footer-color: true;
 
 // Import only what you need from Bulma
 @import '../node_modules/bulma/bulma.sass';
