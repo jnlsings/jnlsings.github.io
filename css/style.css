@@ -21,26 +21,28 @@
 .projects {
 	margin: 50px 0px 0px 0px;
 }
+
 .copyright {
-	padding: 0rem 3rem 0rem 0rem;
+	padding: 0rem 0.5rem 0rem 0rem;
 }
 
 .button {
 	margin: 10px 0px 0px 0px;
 }
 
-.icon {
-	/* padding: 0rem 0rem 0rem 2rem; */
-}
-
 .contact-container {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 }
 
 .icons-container {
+	display: inline-flex;
+}
+
+.icon {
+	margin: 0rem 0.25rem 0rem 0.25rem;
 }
 
 .skills {
@@ -50,4 +52,11 @@
 .resume {
 	text-align: center;
 	padding: 0rem 0rem 1.25rem 0rem;
+}
+
+.blog {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: 50px;
 }
