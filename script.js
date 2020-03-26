@@ -30,10 +30,10 @@ let modal = document.getElementById('page-modal');
 let modal2 = document.getElementById('page-modal-2');
 let modal3 = document.getElementById('page-modal-3');
 let modal4 = document.getElementById('page-modal-4');
-let closeButton = document.getElementsByClassName('delete')[0];
-let closeButton2 = document.getElementsByClassName('delete')[1];
-let closeButton3 = document.getElementsByClassName('delete')[2];
-let closeButton4 = document.getElementsByClassName('delete')[3];
+let closeButton = document.getElementById('delete-1');
+let closeButton2 = document.getElementById('delete-2');
+let closeButton3 = document.getElementById('delete-3');
+let closeButton4 = document.getElementById('delete-4');
 
 button.addEventListener('click', function(event) {
 	modal.style.display = 'inline-flex';
