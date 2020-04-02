@@ -11,8 +11,11 @@
 }
 
 /* Nav */
-.name-logo {
-	padding: 1.25rem 1rem 0rem 1rem;
+.name-logo-1 {
+	padding: 1.25rem 0.25rem 0rem 1rem;
+}
+.name-logo-2 {
+	padding: 1.25rem 1rem 0rem 0rem;
 }
 
 .navbar-burger {
